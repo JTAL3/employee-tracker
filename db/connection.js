@@ -5,7 +5,7 @@
 //     {
 //         host: 'localhost',
 //         user: 'root',
-//         password: 'America2233!',
+//         password: '',
 //         database: 'employee'
 //     }
 // );
@@ -19,7 +19,7 @@ const db = mysql.createConnection(
     {
         host: "localhost",
         user: 'root',
-        password: 'America2233!',
+        password: '',
         database: "work",
     },
     //console.log("Connected to database")
