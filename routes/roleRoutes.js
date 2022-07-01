@@ -19,4 +19,18 @@ router.get("/roles", async (req, res) => {
     });
 });
 
+// router.get("/roles", async (req, res) => {
+//     const sql = `SELECT roles.*, departments.name
+//                         AS department_name
+//       .query(sql)
+//       .then(([rows, fields]) => {
+//         res.json({
+//           message: "success",
+//           data: rows,
+//         });
+//       });
+//   });
+  
+
+
 module.exports = router;
